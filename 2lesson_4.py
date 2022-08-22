@@ -9,7 +9,7 @@ from random import randint
 input = input('Enter a range: ')
 list = []
 
-with open ("C:/Users/Сотрудник 5/Desktop/txt.txt", "r", encoding="utf-8") as file:
+with open ("C:/Users/Desktop/txt.txt", "r", encoding="utf-8") as file: # text in file: 3 \n 5
     numbers = file.read().splitlines()
     file.close()
 
